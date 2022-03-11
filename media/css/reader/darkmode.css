@@ -1014,8 +1014,8 @@ text-shadow: none;
 }
 
 .NB-dark .NB-feedlist .feed {
-    border-top: 1px solid #434543;
-    border-bottom: 1px solid #434543;
+    border-top: none;
+    border-bottom: none;
     padding-right: 2px;
     background-color: #434543;
 }
@@ -1027,8 +1027,7 @@ text-shadow: none;
 .NB-dark .NB-feedlist .folder.NB-selected>.folder_title {
     background: none;
     background-color: #313E4E;
-    border-top: 1px solid #2C305D;
-    border-bottom: 1px solid #2C305D;
+    box-shadow: 0 0px 2px rgb(0 0 0 / 25%);
 }
 
 /* Shared Stories*/
